@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/deploy.yml"
-hash = "a354b03f245ef4cbb5858285e930486727bb69b61c6d4e09bb98b3de03f53c52"
-
-[[files]]
-file = ".wrangler/cache/pages.json"
-hash = "171a16ff9df90b4dd760bee52a78514a502b248441f1d3a192a26d790ef428ad"
-
-[[files]]
-file = ".wrangler/cache/wrangler-account.json"
-hash = "2129e9c3595c5fc2e138d808ce7c34064cc433865fdee84d42e8086a916eb4f2"
-
-[[files]]
-file = "AGENTS.md"
-hash = "7cd3633e73e349e01b6f6835d7a4c3bb9e9eea020fa9bd1c5474da24e99bc7e8"
-
-[[files]]
-file = "README.md"
-hash = "8523636e228e2f14dc628b016442eef4f39117bc8b3aa9295cb354235ac34aca"
-
-[[files]]
 file = "config/betterclouds-v1.json"
 hash = "5613f8f10bc4f15dbe4a8754f65536f0970a80593ec49b71abe97aabc73e014b"
 

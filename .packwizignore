@@ -1,0 +1,10 @@
+.git/**
+.github/**
+.wrangler/**
+README.md
+AGENTS.md
+.gitattributes
+fix_cf.py
+'*_crlf*.py
+pack.toml
+index.toml
