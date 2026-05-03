@@ -1,6 +1,6 @@
 filename = 'wetbackpacks.jar'
 name = 'Backpacked: Wet Backpacks'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.21.1', '1.21.11' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,7 @@ x-prismlauncher-version-number = 'wetbackpacks.jar'
 hash = '25fca11b890174d3fcaebe0b3a1cb84a2e1d76f4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
+url = 'https://edge.forgecdn.net/files/7960/68/wetbackpacks.jar'
 
 [update.curseforge]
 file-id = 7960068

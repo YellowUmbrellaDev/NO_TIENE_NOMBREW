@@ -1,6 +1,6 @@
 filename = 'backpacked-neoforge-1.21.1-3.0.5.jar'
 name = 'Backpacked'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,7 @@ x-prismlauncher-version-number = 'Backpacked 3.0.5'
 hash = '5c610383fc803d62825a2111e16ea01680bf25d9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
+url = 'https://edge.forgecdn.net/files/7866/688/backpacked-neoforge-1.21.1-3.0.5.jar'
 
 [update.curseforge]
 file-id = 7866688
