@@ -1,0 +1,18 @@
+filename = 'betterjukebox-neoforge-1.21.1-1.1.0.jar'
+name = 'Better Jukebox'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = 'a2009bcd24870ddd626637525a421ce4e1a74c1e7fd351d39f2d469bc60e138ab92b5949c0b424b867321700e59b55c26bfecdd06839d8b2ec5311039b89c796'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NvOxCDfD/versions/zBmfpzo4/betterjukebox-neoforge-1.21.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'NvOxCDfD'
+version = 'zBmfpzo4'

@@ -1,0 +1,21 @@
+filename = 'pet_cemetery-1.21.1-3.0.1.jar'
+name = 'Pet Cemetery'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.1'
+
+[download]
+hash = '9494f693e70756258f0a6652ac2442adcf984d5835b645f7a0fc2abf83db5063843759c301a82443e6a80d579eb8fda917368989a0e1ec573ad85077485de398'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M6tSWZ4N/versions/t9fzt3Pl/pet_cemetery-1.21.1-3.0.1.jar'
+
+[update.modrinth]
+mod-id = 'M6tSWZ4N'
+version = 't9fzt3Pl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VsM5EDoI'
+type = 'REQUIRED'

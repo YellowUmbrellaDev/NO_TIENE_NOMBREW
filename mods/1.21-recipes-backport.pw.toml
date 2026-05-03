@@ -1,0 +1,45 @@
+filename = '1.21-recipes-backport-1.0.2.jar'
+name = '1.21.6 Recipes Backport'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2+mod'
+
+[download]
+hash = '3e793207a7930dac8589194a7f27e56cd7f535fc998214eae4aff2da9bc108488ad6413eb3ab60b5c9dcb3c42830a0918a0e482324b8f00f6e7bd52f5a1db130'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tEZRMLMm/versions/dN8iqfZK/1.21-recipes-backport-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'tEZRMLMm'
+version = 'dN8iqfZK'

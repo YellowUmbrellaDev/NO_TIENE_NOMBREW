@@ -1,0 +1,21 @@
+filename = 'wetbackpacks.jar'
+name = 'Backpacked: Wet Backpacks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'wetbackpacks.jar'
+
+[download]
+hash = '25fca11b890174d3fcaebe0b3a1cb84a2e1d76f4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7960068
+project-id = 1505607
+
+[[x-prismlauncher-dependencies]]
+addonId = '352835'
+type = 'REQUIRED'

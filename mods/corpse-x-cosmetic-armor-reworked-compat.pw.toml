@@ -1,0 +1,18 @@
+filename = 'cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar'
+name = 'Corpse x Cosmetic Armor Reworked Compat'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '4.0.1'
+
+[download]
+hash = 'f328f0ef3412f9ba75571d07be5930af9759020a993ac970b31919955d18c7aae9afb5f52da8079ccb1fd012685ed9efff282d893c5a00d2387649eb4615fcf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VrbUxhCI/versions/OrzWgnrD/cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar'
+
+[update.modrinth]
+mod-id = 'VrbUxhCI'
+version = 'OrzWgnrD'

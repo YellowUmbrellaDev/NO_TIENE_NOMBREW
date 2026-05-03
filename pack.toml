@@ -1,0 +1,13 @@
+name = "NO TIENE NOMBREW"
+author = "erodt"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ad508ccc7a68927e3bdb056e57e2f3515ad70832648197c748610ededc95f3e0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"

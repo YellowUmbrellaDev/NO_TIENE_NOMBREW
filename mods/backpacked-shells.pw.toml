@@ -1,0 +1,18 @@
+filename = 'backpacked-shells-1.0.1.jar'
+name = 'Backpacked: Shells'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1', '1.21.11', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '1b40823fde7852daa37a3f63f63ed383ea6ab72df3d070fd6007b6d3f067d0fdd381277a5700a52424840fcab8e92d381e2c6dcbc89ed2f055f1289788b9cdff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TKAMHvcV/versions/wqD0NoTo/backpacked-shells-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'TKAMHvcV'
+version = 'wqD0NoTo'
