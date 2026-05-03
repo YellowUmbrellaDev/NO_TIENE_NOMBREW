@@ -105,6 +105,10 @@ file = "config/xaerohud.txt"
 hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
+file = "fix_crlf2.py"
+hash = "1ad50f4eac6e36c41ae3187030a44d123dc8d3a541734ee6e4fe052643135ffb"
+
+[[files]]
 file = "mods/1.21-recipes-backport.pw.toml"
 hash = "94d79efa80e3509723cb2d359502eaae0c84ec907aa81cf1ccfbb64e7c84a26d"
 metafile = true
@@ -115,7 +119,7 @@ hash = "31f609641d225f5c79e82ab6f7e0e2dfa7a0f53f35fd5ce5ec8abd9ca12380ae"
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "ba506e89d92899b495b3811f35d14065b4f3c62d96a90d5db52443a3e2809e51"
+hash = "28911733fb9f2efbd575dbfebfad68a3daa57e7160c55308e8e7ae31f4e62161"
 metafile = true
 
 [[files]]
@@ -150,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "mods/backpacked-world-of-color.pw.toml"
-hash = "a3f4c8b05998423c1da61f6fbcb05271f3a5558bd9d46b22ddcded2835b85398"
+hash = "b1edd05eb9384a1150f340e78122ab584df5fd8c856666d1ff151cd403ddaaa6"
 metafile = true
 
 [[files]]
@@ -255,7 +259,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
-hash = "59c22dcee2114414b6aa9f4291b690058e6d95af60bd27d3684cbf72ca31be60"
+hash = "6d8283b699e3a53c50fba6dc3c16ae91a56cef928f4687c5258632bb9c22821f"
 metafile = true
 
 [[files]]
@@ -504,7 +508,7 @@ metafile = true
 
 [[files]]
 file = "mods/netherportalfix.pw.toml"
-hash = "cf5cb5e9fbc016f25e0f6bef72f11f917bbd02df788b55c3550bd9ac6588a787"
+hash = "4edbe6eb560625542ef6548757daef7b648c6c3054d33ae413ab3a917d88623d"
 metafile = true
 
 [[files]]
@@ -534,7 +538,7 @@ metafile = true
 
 [[files]]
 file = "mods/rch-supplementaries-compat.pw.toml"
-hash = "8e3a90ba55a0dba6fb7323847631102510aedc2cd0da2752201695f2df7732f7"
+hash = "e294977a48dd89fda128192806bcb339baefa8c96f60863e9e4312945d08a5b3"
 metafile = true
 
 [[files]]
@@ -554,7 +558,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "d1360df767c0c149990fcf714c0f57181e5f84c5f2425faceeb8302b819b458b"
+hash = "96ff9c9b85b2a3d991f7f27d0262162a7b3ba0a7a1f8d8c33a1f91d1d16c937b"
 metafile = true
 
 [[files]]
