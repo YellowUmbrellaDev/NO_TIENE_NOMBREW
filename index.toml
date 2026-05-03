@@ -105,10 +105,6 @@ file = "config/xaerohud.txt"
 hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
-file = "fix_crlf2.py"
-hash = "1ad50f4eac6e36c41ae3187030a44d123dc8d3a541734ee6e4fe052643135ffb"
-
-[[files]]
 file = "mods/1.21-recipes-backport.pw.toml"
 hash = "94d79efa80e3509723cb2d359502eaae0c84ec907aa81cf1ccfbb64e7c84a26d"
 metafile = true
