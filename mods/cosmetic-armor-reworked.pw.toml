@@ -1,6 +1,6 @@
 filename = 'cosmeticarmorreworked-1.21.1-v1-neoforge.jar'
 name = 'Cosmetic Armor Reworked'
-side = 'server'
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

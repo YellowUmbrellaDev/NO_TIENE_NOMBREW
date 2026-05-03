@@ -115,7 +115,7 @@ hash = "31f609641d225f5c79e82ab6f7e0e2dfa7a0f53f35fd5ce5ec8abd9ca12380ae"
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "afd6f0572a0532d39c0d0b23d7ae54a11fc9ee8a69a52e9ff1ebd180ae336f1b"
+hash = "ba506e89d92899b495b3811f35d14065b4f3c62d96a90d5db52443a3e2809e51"
 metafile = true
 
 [[files]]
@@ -150,7 +150,7 @@ metafile = true
 
 [[files]]
 file = "mods/backpacked-world-of-color.pw.toml"
-hash = "d9c53fc03eca9890326d558b8e62222f74e385554029e767f565d6fc9af7c121"
+hash = "a3f4c8b05998423c1da61f6fbcb05271f3a5558bd9d46b22ddcded2835b85398"
 metafile = true
 
 [[files]]
@@ -255,7 +255,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
-hash = "0cf9fa8ea54b7739e9257fe52b8c4d39c894ce9985c39a46fd094c3bd67a6eda"
+hash = "59c22dcee2114414b6aa9f4291b690058e6d95af60bd27d3684cbf72ca31be60"
 metafile = true
 
 [[files]]
@@ -504,7 +504,7 @@ metafile = true
 
 [[files]]
 file = "mods/netherportalfix.pw.toml"
-hash = "22a5a3936d355c561a5c5e5895eadde5b74e31af739bef27335211790e2ca08e"
+hash = "cf5cb5e9fbc016f25e0f6bef72f11f917bbd02df788b55c3550bd9ac6588a787"
 metafile = true
 
 [[files]]
@@ -534,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/rch-supplementaries-compat.pw.toml"
-hash = "5e7e67275db2e575528d54742e12cc0dfc7c3378a7cbdd96d75aae9c2baad582"
+hash = "8e3a90ba55a0dba6fb7323847631102510aedc2cd0da2752201695f2df7732f7"
 metafile = true
 
 [[files]]
@@ -554,7 +554,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "509a5e0aa441b0a3bc266719db680b9d26e4102bc3480ac3bc793d073be653ea"
+hash = "d1360df767c0c149990fcf714c0f57181e5f84c5f2425faceeb8302b819b458b"
 metafile = true
 
 [[files]]
