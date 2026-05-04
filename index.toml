@@ -5,10 +5,6 @@ file = "config/betterclouds-v1.json"
 hash = "5613f8f10bc4f15dbe4a8754f65536f0970a80593ec49b71abe97aabc73e014b"
 
 [[files]]
-file = "config/colorwheel-client.toml"
-hash = "53a5ca163195a69c27765a7cb62a510d8dd35c1e78273d60d98d487e18fc4226"
-
-[[files]]
 file = "config/euphoria_patcher/data.json"
 hash = "787c571c90b21b0f586c0851cfdbe66a4932bfa19f2fa4a1a9d56293151d9334"
 
@@ -21,20 +17,16 @@ file = "config/everycomp-entries.toml"
 hash = "84f36360499b5cc1b2fb75fe04cad3293cd48622206c9820b5eb3c67c586b7c8"
 
 [[files]]
-file = "config/lambdynlights.toml"
-hash = "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9"
-
-[[files]]
 file = "config/naturalist-server.toml"
 hash = "18dabeb8092c74887171df16b831b84e5af5a3e9b161fe46f8fd34c922872783"
 
 [[files]]
-file = "config/notenoughanimations.json"
-hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
-
-[[files]]
 file = "config/supplementaries-common.toml"
 hash = "fc62ce84bbb68ef22bdde2565d98c9ebbc0c43d18b9b5f2ee7ced98bd1ed0f01"
+
+[[files]]
+file = "config/woodworks-common.toml"
+hash = "a37743d7496af9fbeff2028c133d92f3387bd33c4d1d0008c87af3c64693de15"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -468,16 +460,6 @@ hash = "4f4f7e84f1efb76998b0f41bf01799ae9182e180a1343a20f8c2c2325672c9ed"
 metafile = true
 
 [[files]]
-file = "mods/more-bookshelf-variants-lieonlion.pw.toml"
-hash = "13ceb0e20369169d61c3cf6de7da07f072911132550989aebafb6937e41c749c"
-metafile = true
-
-[[files]]
-file = "mods/more-chest-variants-lieonlion.pw.toml"
-hash = "b22ce6c800d7407af03640348fcd450dbe35e38123fe30c3953a66a24993c7c8"
-metafile = true
-
-[[files]]
 file = "mods/more-furnace-variants-lieonlion.pw.toml"
 hash = "38ff5a2b5d237b5fcce0cd26810f0a41af90924e89be49ecdeea312f3725e7c0"
 metafile = true
@@ -523,6 +505,11 @@ hash = "4b80eee2f69dabb3c9303e9ae897fe70698fd6b69c61bcf556416298d46911ec"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "514dc4df799d53dfdee5f1575e45bdcdb772afbffff4a32dce8d2808fb55025d"
 metafile = true
@@ -555,6 +542,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "96ff9c9b85b2a3d991f7f27d0262162a7b3ba0a7a1f8d8c33a1f91d1d16c937b"
+metafile = true
+
+[[files]]
+file = "mods/rrls.pw.toml"
+hash = "b78044fd79ce21750d05dc61b6aede33c4b87cdc16a26f5aff472d4f73ab623c"
 metafile = true
 
 [[files]]
@@ -603,18 +595,28 @@ hash = "a6eddcd3f7272b85a0e1475abbee8d0291259806ec2ffd0d38fa3ee47d17161f"
 metafile = true
 
 [[files]]
+file = "mods/swing-through-grass.pw.toml"
+hash = "5d48d282ffcde80b37c6e9b79dfcc3283531db934c36c456afd812fba050cc41"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fcce5e81b8e089f91e99e729b636e9cd37a0e4301e9c9ef4da87d1de59608cfc"
 metafile = true
 
 [[files]]
 file = "mods/unusual-furniture.pw.toml"
-hash = "22c18b47dd1bbe8b81f8c33c11c839842a4b5ba9cbe1e482e21f18e87df4995c"
+hash = "2441abf8ae001e8f2ddede167b559fd9ab1a402618ad95d22f4f9d1b2fdcef14"
 metafile = true
 
 [[files]]
 file = "mods/wet-backpacks.pw.toml"
 hash = "79b008ed455b08cb2972addc25583ea37792e99a2ad98fce58afae991c18ea5c"
+metafile = true
+
+[[files]]
+file = "mods/woodworks.pw.toml"
+hash = "c528ce61fc0e0036a7b6055ad71b1a5bf1cb388537397b6852464b9855d69345"
 metafile = true
 
 [[files]]
