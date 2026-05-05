@@ -381,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
-hash = "714306f5fb1cc0cd216a08b69b5f10d606c3012b182bfb8b5d0bb02571b75e1a"
+hash = "c03e00c22141d38c78706af4698b806bfdebc7ef61508f9749a153b74bcfc330"
 
 [[files]]
 file = "mods/hearth-and-harvest.pw.toml"
