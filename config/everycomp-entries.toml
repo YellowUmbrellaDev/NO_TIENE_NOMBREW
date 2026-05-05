@@ -69,8 +69,8 @@
 			nightstand = true
 			table = true
 			chair = true
-			drawer = true
-			cupboard = true
+			drawer = false
+			cupboard = false
 			pillar_trim = true
 			dining_bench = true
 			side_table = true

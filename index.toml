@@ -14,7 +14,7 @@ hash = "1ca09c8cb52e88edfbd3afb7a6b8bbec920b6398134984bd2bdcddfe37ae4e1c"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "84f36360499b5cc1b2fb75fe04cad3293cd48622206c9820b5eb3c67c586b7c8"
+hash = "e016ab90e13b7fbb130eb9ee429c3cc40a282055737a7569e6b661d0abe71754"
 
 [[files]]
 file = "config/naturalist-server.toml"
