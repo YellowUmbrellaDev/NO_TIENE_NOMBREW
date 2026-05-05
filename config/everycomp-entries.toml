@@ -59,29 +59,46 @@
 			window = false
 			window_pane = false
 
-		[entries.wood_type.handcrafted]
-			counter = true
-			corner_trim = true
-			fancy_bed = true
-			desk = true
-			couch = true
-			shelf = true
-			nightstand = true
-			table = true
-			chair = true
-			drawer = false
-			cupboard = false
-			pillar_trim = true
-			dining_bench = true
-			side_table = true
-			bench = true
-
 		[entries.wood_type.backpacked]
 			backpack_shelf = true
 
-		[entries.wood_type.lolmcv]
-			trapped_chest = true
-			chest = true
-
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.unusual_furniture]
+			drawer = true
+			railing = true
+			celling_lamp = true
+			coffee_table = true
+			beam = true
+			carved = true
+			stool = true
+			table = true
+			shelf = true
+			open_riser_stairs = true
+			bench = true
+			chair = true
+
+		[entries.wood_type.handcrafted]
+			counter = true
+			fancy_bed = true
+			desk = true
+			nightstand = true
+			dining_bench = true
+			bench = true
+			couch = true
+			table = true
+			chair = true
+			side_table = true
+
+		[entries.wood_type.woodworks]
+			trapped_chest = true
+			boards = true
+			chest = true
+			beehive = true
+			bookshelf = true
+			chiseled_bookshelf = true
+			ladder = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = false
