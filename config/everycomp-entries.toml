@@ -80,6 +80,8 @@
 			chair = true
 
 		[entries.wood_type.handcrafted]
+			cupboard = false
+			drawer = false
 			counter = true
 			fancy_bed = true
 			desk = true
