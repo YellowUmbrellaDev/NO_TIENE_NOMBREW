@@ -256,8 +256,18 @@ hash = "f2a3befb648150814110d035a18a508af15c4efef27efa0497d2c1ea886ae3bf"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
+metafile = true
+
+[[files]]
 file = "mods/create-copper-zinc.pw.toml"
 hash = "32cbc8040cfc8ca4fc09364befb20c6a2a5053c80c742c6203e11b9347449d7e"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "bc4ef8bd7d32506703dcc175a62a12766addc393434ddbe8d17f01b071701943"
 metafile = true
 
 [[files]]
@@ -370,9 +380,8 @@ hash = "646cf47cd35638908bbd5f9030b23844b7e25bd2673b47296377a1049aa31238"
 metafile = true
 
 [[files]]
-file = "mods/handcrafted.pw.toml"
-hash = "febe6e0ccb1bc2dfa4bf969a27529471bcf737a9b3eccb8477f0757f6a50df93"
-metafile = true
+file = "mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
+hash = "714306f5fb1cc0cd216a08b69b5f10d606c3012b182bfb8b5d0bb02571b75e1a"
 
 [[files]]
 file = "mods/hearth-and-harvest.pw.toml"
