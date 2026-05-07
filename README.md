@@ -1,23 +1,23 @@
 # NO TIENE NOMBREW - Modpack
 
-Modpack gestionado a través de [Packwiz](https://packwiz.infra.link/) y alojado globalmente mediante Cloudflare Pages y Github Actions para asegurar descargas limpias, automáticas y ultra-rápidas en todo el mundo.
+Modpack gestionado a travï¿½s de [Packwiz](https://packwiz.infra.link/) y alojado globalmente mediante Cloudflare Pages y Github Actions para asegurar descargas limpias, automï¿½ticas y ultra-rï¿½pidas en todo el mundo.
 
-## ?? Instalación Automática (Jugadores vía Prism Launcher)
+## ?? Instalaciï¿½n Automï¿½tica (Jugadores vï¿½a Prism Launcher)
 
-No necesitas bajarte el modpack entero a mano, usa este instalador que te mantendrá los archivos sincronizados automáticamente:
+No necesitas bajarte el modpack entero a mano, usa este instalador que te mantendrï¿½ los archivos sincronizados automï¿½ticamente:
 
 1. Crea una **Nueva Instancia** en Prism Launcher.
-   - Versión de Minecraft: **1.21.1**
+   - Versiï¿½n de Minecraft: **1.21.1**
    - Modloader: **NeoForge 21.1.228**
 2. Haz clic derecho en tu instancia nueva y elige "Abrir carpeta" para entrar en el directorio base (suerte llamarse `.minecraft` o `minecraft`).
-3. Descarga el archivo **[packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar)** y mételo justo ahí, dentro de esa carpeta.
-4. En Prism Launcher, entra a **Editar Instancia** -> Pestaña **Configuración** -> Apartado **Comandos personalizados**.
+3. Descarga el archivo **[packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar)** y mï¿½telo justo ahï¿½, dentro de esa carpeta.
+4. En Prism Launcher, entra a **Editar Instancia** -> Pestaï¿½a **Configuraciï¿½n** -> Apartado **Comandos personalizados**.
 5. Marca la casilla de "Activar comandos" y en la barra de texto de **Pre-launch command**, copia y pega *exactamente* esto:
 
 `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://no-tiene-nombrew-packwiz.pages.dev/pack.toml`
 
-6. **¡Arranca el juego!** 
-Verás que el instalador procesa, baja e instala mágicamente todo: texturas custom, configs de menú, todos los mods necesarios y parches. Cada vez que inicias el juego se encargará de revisarlo de manera inteligente y si hay actualizaciones, se bajarán solas antes de la pantalla de Mojang.
+6. **ï¿½Arranca el juego!** 
+Verï¿½s que el instalador procesa, baja e instala mï¿½gicamente todo: texturas custom, configs de menï¿½, todos los mods necesarios y parches. Cada vez que inicias el juego se encargarï¿½ de revisarlo de manera inteligente y si hay actualizaciones, se bajarï¿½n solas antes de la pantalla de Mojang.
 
 ## ?? Desarrollo y Repositorio (Developers)
-Cualquier subida o modificación del modpack hecha a la rama `main` en GitHub, invocará automáticamente a una *GitHub Action* que sincroniza todo con Cloudflare en milisegundos.
+Cualquier subida o modificaciï¿½n del modpack hecha a la rama `main` en GitHub, invocarï¿½ automï¿½ticamente a una *GitHub Action* que sincroniza todo con Cloudflare en milisegundos.
