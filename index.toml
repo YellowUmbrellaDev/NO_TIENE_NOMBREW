@@ -86,7 +86,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "efbe33f5af35d1f3a4bdffbe0ce8dbe20ef22d2b26e132ac1ff11efeb4f906a0"
+hash = "8916080bda1967883548f0c70132e22803e8070e7d4578c8cc504e971d0f0fd2"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
