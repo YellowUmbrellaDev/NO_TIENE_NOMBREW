@@ -62,7 +62,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "a41be1a9d2f05484e5879d34eac070ee50eea28034571add0013eaae40fb336f"
+hash = "19681bed4df00033d3ecc2fc0c94ad56510e551ac0c4a6132f6a802e417bc835"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -401,11 +401,6 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "c53b62de573321d806c74c97413f40b9d813562ec487becd8beedae93d58f13e"
-metafile = true
-
-[[files]]
-file = "mods/interiors.pw.toml"
-hash = "a2c21c205928227b06a6ab7d8ed56d3b4db4ee00d89a419123b23b515e2df4f1"
 metafile = true
 
 [[files]]
