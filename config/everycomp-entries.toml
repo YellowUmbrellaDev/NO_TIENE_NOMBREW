@@ -95,7 +95,7 @@
 
 		[entries.wood_type.woodworks]
 			trapped_chest = true
-			boards = true
+			boards = false
 			chest = true
 			beehive = true
 			bookshelf = true

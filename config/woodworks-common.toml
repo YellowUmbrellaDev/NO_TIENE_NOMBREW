@@ -1,6 +1,6 @@
 [blocks]
 	Sawmill = true
-	"Wooden boards" = true
+	"Wooden boards" = false
 	"Wooden bookshelves" = true
 	"Wooden ladders" = true
 	"Wooden beehives" = true
