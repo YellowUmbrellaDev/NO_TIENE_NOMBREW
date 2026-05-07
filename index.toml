@@ -251,6 +251,11 @@ hash = "6d8283b699e3a53c50fba6dc3c16ae91a56cef928f4687c5258632bb9c22821f"
 metafile = true
 
 [[files]]
+file = "mods/crabbers-delight.pw.toml"
+hash = "7ea72bc415b4b067a98790b5fcef0afd843a226587588b293b6cbf145d834575"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "f2a3befb648150814110d035a18a508af15c4efef27efa0497d2c1ea886ae3bf"
 metafile = true
@@ -381,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
-hash = "04bcff1da9940c2712de04dc2635d895924025c5e3a0b1fc0d705b454058780e"
+hash = "69a174f71dede30223dac2e5f77c10f6399bf8ef04ca96c278a1505be874eeba"
 
 [[files]]
 file = "mods/hearth-and-harvest.pw.toml"
