@@ -1,4 +1,4 @@
-name: Deploy Modpack to Cloudflare Pages & R2
+name: Deploy Modpack to Cloudflare Pages
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -15,32 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install boto3
-          wget https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.zip
-          unzip packwiz_linux_amd64.zip
-          chmod +x packwiz
-          sudo mv packwiz /usr/local/bin/
-
-      - name: Process Loose Files & Upload to R2
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          AWS_ENDPOINT_URL: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-          BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
-          CDN_URL: https://cdn.yellowumbrella.dev
-        run: python scripts/build_r2_pack.py
-
-      - name: Refresh Packwiz Index
-        run: packwiz refresh
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
