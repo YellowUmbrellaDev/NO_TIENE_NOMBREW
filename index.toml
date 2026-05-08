@@ -270,6 +270,11 @@ hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "c8b2e60b789885854508c674ba0630cdc8dc2a880302d8475cdc5ae06c44f64a"
+metafile = true
+
+[[files]]
 file = "mods/create-copper-zinc.pw.toml"
 hash = "32cbc8040cfc8ca4fc09364befb20c6a2a5053c80c742c6203e11b9347449d7e"
 metafile = true
@@ -503,6 +508,11 @@ hash = "4edbe6eb560625542ef6548757daef7b648c6c3054d33ae413ab3a917d88623d"
 metafile = true
 
 [[files]]
+file = "mods/nethers-exoticism.pw.toml"
+hash = "8f065de8a14d77fd909cb7bbc01a7e98419c61d9f7bb542844432442b4170f6a"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "2c5958fc5b58a69a31d0297e2e55af8f6117d2253cac3f0ae53a273ed3efa6fc"
 metafile = true
@@ -575,11 +585,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "77a33a94a3c7509f0e88905a5aacd76145dec342963d0402b293bd49438fa7ea"
-metafile = true
-
-[[files]]
-file = "mods/slice-and-dice.pw.toml"
-hash = "08bf06876f08c593030f85770483abc93f232b58a2e15636551625afe62ecc6e"
 metafile = true
 
 [[files]]
