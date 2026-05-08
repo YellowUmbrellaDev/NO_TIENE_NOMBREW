@@ -692,6 +692,10 @@ file = "resourcepacks/§eXaero's-Map-Frame-Frilled.zip"
 hash = "24b70bc34ce80e615dad36fca8aa9475b0204f8a7742c7e3d0835b5bf7cf7572"
 
 [[files]]
+file = "scripts/build_r2_pack.py"
+hash = "8dec873a1ab7a2e9c35f90445429d3f07e1109fda400ff138e5015994c56ac8f"
+
+[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.6.txt"
 hash = "3fa801e770d088abce3bc402cde5de44c0cc90133aeb8b41a042613cdbabf19d"
 
