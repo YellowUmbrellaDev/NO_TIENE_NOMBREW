@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "f49e22ee000831703ca1e0c0210e91f4ee16e69f6b29b550f988fabf3cc194df"
+
+[[files]]
 file = "config/betterclouds-v1.json"
 hash = "5613f8f10bc4f15dbe4a8754f65536f0970a80593ec49b71abe97aabc73e014b"
 
@@ -665,7 +669,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "e1ecd343800b4affeeb696319484cf7ce175a7929a998953babdb51e5efd3974"
+hash = "861fd55f29134e8a8fff49254b2a34aedd17933448062b833286dd3b410704ea"
 
 [[files]]
 file = "resourcepacks/BOP_Renewed_v1.6.zip"

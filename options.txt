@@ -1,2 +1,4 @@
+renderClouds:"true"
+renderDistance:12
 resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/§eXaero\u0027s-Map-Frame-Frilled.zip","file/Xaero\u0027s Vanilla GUI.zip","file/NO TIENE NOMBREW\u0027S XAERO ICONS.zip","file/BOP_Renewed_v1.6.zip","file/NTNW NoZ-Fighting.zip"]
 incompatibleResourcePacks:["file/BOP_Renewed_v1.6.zip"]
