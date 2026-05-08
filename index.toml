@@ -14,7 +14,7 @@ hash = "1ca09c8cb52e88edfbd3afb7a6b8bbec920b6398134984bd2bdcddfe37ae4e1c"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "051308018dd1fa72f4e7476d71f9e98d49b25d5583f1061e94d7901d0b709753"
+hash = "ee0d22b4d3be853e0989bf4084db5541fa85b8795e4eb6f43891fbd00fae1491"
 
 [[files]]
 file = "config/naturalist-server.toml"
@@ -26,7 +26,7 @@ hash = "fc62ce84bbb68ef22bdde2565d98c9ebbc0c43d18b9b5f2ee7ced98bd1ed0f01"
 
 [[files]]
 file = "config/woodworks-common.toml"
-hash = "a37743d7496af9fbeff2028c133d92f3387bd33c4d1d0008c87af3c64693de15"
+hash = "44254c329687150f728b958084c955a97e36782e621a342b45db0e827eacfa75"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -286,6 +286,11 @@ hash = "e6b22d3dcc2800b4b113ef8f32dedd135adfafd5095d6747783e94d56afa4d21"
 metafile = true
 
 [[files]]
+file = "mods/create-sable-dynamic-lights.pw.toml"
+hash = "8bd25da66655f493b41b090867efb1b33241b8b9f623190c8991fe17709478e1"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "1cf9b3c2a977fa653b45e8a40ba62e326b3ffc5cfb6a43567b00b487e42548ed"
 metafile = true
@@ -434,11 +439,6 @@ hash = "742761029dd4a5d23639e5fa167a432d111159b04c757f44afaf5c6a62cb81c8"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "dc9587c1dfd6e66abb0453855163f2f51b7c8e0575bace796c90d5a72a7dc122"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "db7f069f663b7c9dafa031b73bbd851f6bc14ecefddf0a37bb0d1bf45b98ad14"
 metafile = true
@@ -584,13 +584,23 @@ hash = "62ebbc70fb3894aa34b5c4f3c5f0d6cd9817c57964dc9cadd71938143d797196"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "5dbba708d81de301527af6786a460b8372a62ad537b17e0775ae2e478c1b8386"
 metafile = true
 
 [[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "d193173f0f5dfb4a921d44e29e8d5cee656dd3a40872939069715bb482b66fc9"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
-hash = "f679e8e8ab371ec663052a50c508475198389aa8d1d5a1956c37cf2ad8e04c47"
+hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
