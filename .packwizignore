@@ -8,3 +8,6 @@ fix_cf.py
 '*_crlf*.py
 pack.toml
 index.toml
+
+scripts/**
+*.py
