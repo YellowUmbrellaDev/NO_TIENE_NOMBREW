@@ -37,6 +37,9 @@ services:
     build: ./webhook
     container_name: modpack-webhook
     restart: unless-stopped
+    networks:
+      - default
+      - pufferpanel_default
     volumes:
       - ./:/srv:rw
       - /var/run/docker.sock:/var/run/docker.sock
