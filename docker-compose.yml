@@ -13,7 +13,7 @@ services:
       - "traefik.http.services.modpack-caddy.loadbalancer.server.port=80"
     networks:
       - default
-      - proxy
+      - pufferpanel_default
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./:/srv:ro
@@ -48,7 +48,5 @@ volumes:
   caddy_config:
 
 networks:
-  proxy:
+  pufferpanel_default:
     external: true
-    # IMPORTANTE: Cambia 'proxy' por el nombre real de la red Docker donde vive tu Traefik
-    # Si Traefik está en pufferpanel, podría llamarse 'pufferpanel', 'traefik_web', etc.
