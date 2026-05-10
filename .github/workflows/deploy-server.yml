@@ -13,4 +13,4 @@ jobs:
       - name: Trigger Webhook
         run: |
           curl -X POST -H "X-Webhook-Secret: ${{ secrets.WEBHOOK_SECRET }}" \
-          -f https://modpack.nameless.yellowumbrella.dev/hooks/deploy
+          -f -k https://modpack.nameless.yellowumbrella.dev/hooks/deploy
