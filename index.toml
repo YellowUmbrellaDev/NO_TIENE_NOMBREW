@@ -9,16 +9,16 @@ file = "config/betterclouds-v1.json"
 hash = "5613f8f10bc4f15dbe4a8754f65536f0970a80593ec49b71abe97aabc73e014b"
 
 [[files]]
+file = "config/create_central_kitchen-common.toml"
+hash = "22361d28900019ef435e62c61a521079d61111b59d58c5dca2b88e5ea70b221a"
+
+[[files]]
 file = "config/euphoria_patcher/data.json"
 hash = "787c571c90b21b0f586c0851cfdbe66a4932bfa19f2fa4a1a9d56293151d9334"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
 hash = "1ca09c8cb52e88edfbd3afb7a6b8bbec920b6398134984bd2bdcddfe37ae4e1c"
-
-[[files]]
-file = "config/everycomp-entries.toml"
-hash = "ee0d22b4d3be853e0989bf4084db5541fa85b8795e4eb6f43891fbd00fae1491"
 
 [[files]]
 file = "config/naturalist-server.toml"
@@ -361,11 +361,6 @@ hash = "59e3b006286383d46c24f95c5d34a5100559ec1e486721a767917277a7136664"
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "a0588b99603ac63b2bfa5c846572b26820caac85fe9a9f1e08969618a9299da3"
-metafile = true
-
-[[files]]
-file = "mods/every-compat.pw.toml"
-hash = "046e2a1867c8bc5e60ddd36f71f092878a85a9c8b2f1fafb561b061230d5ad37"
 metafile = true
 
 [[files]]
