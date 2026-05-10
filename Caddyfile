@@ -5,7 +5,7 @@
     header Access-Control-Allow-Origin "*"
     header Access-Control-Allow-Methods "GET, OPTIONS"
 
-    handle_path /hooks/* {
+    handle /hooks/* {
         reverse_proxy modpack-webhook:9000
     }
 }
