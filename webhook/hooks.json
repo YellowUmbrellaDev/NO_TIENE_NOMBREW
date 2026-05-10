@@ -1,0 +1,17 @@
+[
+  {
+    "id": "deploy",
+    "execute-command": "/etc/webhook/deploy.sh",
+    "command-working-directory": "/srv",
+    "trigger-rule": {
+      "match": {
+        "type": "value",
+        "value": "{{ getenv \"WEBHOOK_SECRET\" }}",
+        "parameter": {
+          "source": "header",
+          "name": "X-Webhook-Secret"
+        }
+      }
+    }
+  }
+]

@@ -18,14 +18,24 @@ services:
     image: favonia/cloudflare-ddns:latest
     container_name: modpack-ddns
     restart: unless-stopped
-    # Usa un archivo .env para tu token de Cloudflare:
-    # CF_API_TOKEN=tu_token_aqui
+    # Configurar CF_API_TOKEN en el archivo .env
     environment:
       - CF_API_TOKEN=${CF_API_TOKEN}
       - DOMAINS=modpack.nameless.yellowumbrella.dev
       - PROXIED=false
     security_opt:
       - no-new-privileges:true
+
+  webhook:
+    build: ./webhook
+    container_name: modpack-webhook
+    restart: unless-stopped
+    volumes:
+      - ./:/srv:rw
+      - /var/run/docker.sock:/var/run/docker.sock
+    # Configurar WEBHOOK_SECRET en el archivo .env
+    environment:
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
 
 volumes:
   caddy_data:

@@ -10,14 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          script: |
-            cd ${{ secrets.SERVER_DEPLOY_PATH }}
-            git pull origin main
-            # Reiniciar Caddy en caso de que Caddyfile o docker-compose.yml hayan cambiado
-            docker compose up -d
+      - name: Trigger Webhook
+        run: |
+          curl -X POST -H "X-Webhook-Secret: ${{ secrets.WEBHOOK_SECRET }}" \
+          -f https://modpack.nameless.yellowumbrella.dev/hooks/deploy
