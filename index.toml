@@ -629,7 +629,7 @@ metafile = true
 
 [[files]]
 file = "mods/swing-through-grass.pw.toml"
-hash = "5d48d282ffcde80b37c6e9b79dfcc3283531db934c36c456afd812fba050cc41"
+hash = "1c741d6b770a685e8ca885dc5fc40dc0ff8556ec2d4a630ec24618efe344dbf8"
 metafile = true
 
 [[files]]
