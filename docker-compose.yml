@@ -10,6 +10,7 @@ services:
       - "traefik.http.routers.modpack-caddy.rule=Host(`modpack.nameless.yellowumbrella.dev`)"
       - "traefik.http.routers.modpack-caddy.entrypoints=websecure"
       - "traefik.http.routers.modpack-caddy.tls=true"
+      - "traefik.http.routers.modpack-caddy.tls.certresolver=cfresolver"
       - "traefik.http.services.modpack-caddy.loadbalancer.server.port=80"
     networks:
       - default
