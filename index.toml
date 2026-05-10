@@ -26,7 +26,7 @@ hash = "18dabeb8092c74887171df16b831b84e5af5a3e9b161fe46f8fd34c922872783"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "fc62ce84bbb68ef22bdde2565d98c9ebbc0c43d18b9b5f2ee7ced98bd1ed0f01"
+hash = "1422f036c1ed299f0167ba8ef9509ecade7b98d26ca744f9cd5fbba5ad48e190"
 
 [[files]]
 file = "config/woodworks-common.toml"
