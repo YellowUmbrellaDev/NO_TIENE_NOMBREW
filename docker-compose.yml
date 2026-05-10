@@ -12,6 +12,7 @@ services:
       - "traefik.http.routers.modpack-caddy.tls=true"
       - "traefik.http.routers.modpack-caddy.tls.certresolver=cfresolver"
       - "traefik.http.services.modpack-caddy.loadbalancer.server.port=80"
+      - "traefik.docker.network=pufferpanel_default"
     networks:
       - default
       - pufferpanel_default
@@ -39,7 +40,6 @@ services:
     restart: unless-stopped
     networks:
       - default
-      - pufferpanel_default
     volumes:
       - ./:/srv:rw
       - /var/run/docker.sock:/var/run/docker.sock
