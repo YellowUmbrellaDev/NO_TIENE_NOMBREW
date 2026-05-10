@@ -4,6 +4,11 @@
 README.md
 AGENTS.md
 .gitattributes
+.gitignore
+.env
+docker-compose.yml
+Caddyfile
+webhook/**
 fix_cf.py
 '*_crlf*.py
 pack.toml
