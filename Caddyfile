@@ -1,4 +1,4 @@
-modpack.nameless.yellowumbrella.dev {
+:80 {
     root * /srv
     file_server browse
     

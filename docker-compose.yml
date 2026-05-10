@@ -5,9 +5,15 @@ services:
     image: caddy:2-alpine
     container_name: modpack-caddy
     restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.modpack-caddy.rule=Host(`modpack.nameless.yellowumbrella.dev`)"
+      - "traefik.http.routers.modpack-caddy.entrypoints=websecure"
+      - "traefik.http.routers.modpack-caddy.tls=true"
+      - "traefik.http.services.modpack-caddy.loadbalancer.server.port=80"
+    networks:
+      - default
+      - proxy
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./:/srv:ro
@@ -40,3 +46,9 @@ services:
 volumes:
   caddy_data:
   caddy_config:
+
+networks:
+  proxy:
+    external: true
+    # IMPORTANTE: Cambia 'proxy' por el nombre real de la red Docker donde vive tu Traefik
+    # Si Traefik está en pufferpanel, podría llamarse 'pufferpanel', 'traefik_web', etc.
