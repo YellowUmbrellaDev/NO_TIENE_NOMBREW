@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  caddy:
+    image: caddy:2-alpine
+    container_name: modpack-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./:/srv:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+  cloudflare-ddns:
+    image: favonia/cloudflare-ddns:latest
+    container_name: modpack-ddns
+    restart: unless-stopped
+    # Usa un archivo .env para tu token de Cloudflare:
+    # CF_API_TOKEN=tu_token_aqui
+    environment:
+      - CF_API_TOKEN=${CF_API_TOKEN}
+      - DOMAINS=modpack.nameless.yellowumbrella.dev
+      - PROXIED=false
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  caddy_data:
+  caddy_config:
