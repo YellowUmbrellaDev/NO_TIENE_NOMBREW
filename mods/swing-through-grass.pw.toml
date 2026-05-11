@@ -1,6 +1,7 @@
 name = "Swing Through Grass"
 filename = "swingthroughgrass-neoforge-1.0.0-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/2UJdja33/versions/pVB6oiZ7/swingthroughgrass-neoforge-1.0.0-1.21.1.jar"
