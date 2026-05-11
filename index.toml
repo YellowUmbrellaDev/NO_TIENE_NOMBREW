@@ -21,6 +21,14 @@ file = "config/euphoria_patcher/settings.toml"
 hash = "1ca09c8cb52e88edfbd3afb7a6b8bbec920b6398134984bd2bdcddfe37ae4e1c"
 
 [[files]]
+file = "config/everycomp-common.toml"
+hash = "b74883ecbb4ac3ca4ff1c289dfc4af531f70434458015fd63810c5875d04d494"
+
+[[files]]
+file = "config/everycomp-entries.toml"
+hash = "ee0d22b4d3be853e0989bf4084db5541fa85b8795e4eb6f43891fbd00fae1491"
+
+[[files]]
 file = "config/naturalist-server.toml"
 hash = "18dabeb8092c74887171df16b831b84e5af5a3e9b161fe46f8fd34c922872783"
 
