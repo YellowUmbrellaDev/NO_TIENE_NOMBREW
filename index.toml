@@ -364,6 +364,11 @@ hash = "a0588b99603ac63b2bfa5c846572b26820caac85fe9a9f1e08969618a9299da3"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "e756b52951b3d81c99bfebb6bcf7db8e385bb250cbdf4e8d68cc79d1c727e049"
+metafile = true
+
+[[files]]
 file = "mods/farmers-cutting-biomes-o-plenty.pw.toml"
 hash = "ba05dbac5c1204ed4c8b8bc2c42cfe1fbfb0ec0ab64d6faa31a9fa2cfda92c6c"
 metafile = true
@@ -469,7 +474,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "4f4f7e84f1efb76998b0f41bf01799ae9182e180a1343a20f8c2c2325672c9ed"
+hash = "1624d6650b4c081188123a1f337f660dc9e753fed26149ab184cf658589d94ce"
 metafile = true
 
 [[files]]
