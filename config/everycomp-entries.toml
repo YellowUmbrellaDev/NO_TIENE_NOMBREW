@@ -56,8 +56,8 @@
 [entries]
 
 		[entries.wood_type.create]
-			window = true
-			window_pane = true
+			window = false
+			window_pane = false
 
 		[entries.wood_type.backpacked]
 			backpack_shelf = true
