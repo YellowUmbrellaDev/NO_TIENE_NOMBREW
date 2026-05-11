@@ -227,7 +227,7 @@
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannon_boat]
-			enabled = true
+			enabled = false
 			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
 			# Default: 0.5
 			# Range: 0.0 ~ 5.0
@@ -343,7 +343,7 @@
 		enabled = true
 
 	[building.item_shelf]
-		enabled = true
+		enabled = false
 		#Makes item shelves climbable
 		climbable_shelves = false
 
@@ -409,7 +409,7 @@
 		sepia_globe = true
 
 	[building.way_sign]
-		enabled = true
+		enabled = false
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
