@@ -28,7 +28,7 @@
 		#Enabled tooltips showing which block type an EC item is made from
 		block_type_enabled = true
 		#Only show on advanced settings
-		show_on_advanced_tooltips = false
+		show_on_advanced_tooltips = true
 		#Enable Every-Compat to base textures off external Resource Packs rather than mod's default textures.
 		#ATTENTION: There are some Resource Packs that won't work well with Every-Compat, which is why this
 		#option is off by default. Disable if there are missing textures for blocks.

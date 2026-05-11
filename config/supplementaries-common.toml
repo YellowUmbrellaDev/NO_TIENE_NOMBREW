@@ -618,7 +618,7 @@
 #General settings
 [general]
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "NEVER"
+	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab
 	creative_tab = true
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble

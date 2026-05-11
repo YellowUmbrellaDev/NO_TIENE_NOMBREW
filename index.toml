@@ -22,7 +22,7 @@ hash = "1ca09c8cb52e88edfbd3afb7a6b8bbec920b6398134984bd2bdcddfe37ae4e1c"
 
 [[files]]
 file = "config/everycomp-common.toml"
-hash = "b74883ecbb4ac3ca4ff1c289dfc4af531f70434458015fd63810c5875d04d494"
+hash = "af6fd4e3c1e37e9650d31bb917ce04f46ebec680b72e2d8afe3a4a0318bcf4c1"
 
 [[files]]
 file = "config/everycomp-entries.toml"
@@ -34,7 +34,7 @@ hash = "18dabeb8092c74887171df16b831b84e5af5a3e9b161fe46f8fd34c922872783"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "967ad6753c3d0aa7218ca659144005f957493ed88d899f17b9e502d4edc0260d"
+hash = "a27d1699dd1a89ae2032ef0937cebf518a2d31010b27678c01b8fc44f0f7f8b2"
 
 [[files]]
 file = "config/woodworks-common.toml"
