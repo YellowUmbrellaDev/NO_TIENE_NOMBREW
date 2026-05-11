@@ -412,7 +412,7 @@ hash = "ebab5e5914c287d3c2fd34658479750dc06606f54c6bcf2f0eae3427b95acceb"
 
 [[files]]
 file = "mods/hearth-and-harvest.pw.toml"
-hash = "16f69c9550ffd5783c99ef91c4bd37174eda5b7402600d938ae5e9f321eebea4"
+hash = "ed1ca03db036f33ca78ef5e487e194bc3505f9a48a4023a6a501009b4ae6da59"
 metafile = true
 
 [[files]]
