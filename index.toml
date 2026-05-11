@@ -637,12 +637,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "a6eddcd3f7272b85a0e1475abbee8d0291259806ec2ffd0d38fa3ee47d17161f"
+hash = "084ba00d5d41d76f4975935f3ada0fb1fce41bce59dd3901f54684c3588cb9f6"
 metafile = true
 
 [[files]]
 file = "mods/swing-through-grass.pw.toml"
-hash = "39ed8d04d86c1e53ccfaf8c3769f4bbf7617f4689e72ae8aedc8b29e44a7bd9c"
+hash = "5d48d282ffcde80b37c6e9b79dfcc3283531db934c36c456afd812fba050cc41"
 metafile = true
 
 [[files]]
