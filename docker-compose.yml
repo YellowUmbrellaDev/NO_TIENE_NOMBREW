@@ -18,7 +18,7 @@ services:
       - pufferpanel_default
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - ./:/srv:ro
+      - modpack_data:/srv:ro
       - caddy_data:/data
       - caddy_config:/config
 
@@ -41,8 +41,9 @@ services:
     networks:
       - default
     volumes:
-      - ./:/srv:rw
-      - /var/run/docker.sock:/var/run/docker.sock
+      - modpack_data:/srv:rw
+      - ./webhook/deploy.sh:/etc/webhook/deploy.sh:ro
+      - ./webhook/deploy_key:/root/.ssh/id_ed25519:ro
     # Configurar WEBHOOK_SECRET en el archivo .env
     environment:
       - WEBHOOK_SECRET=${WEBHOOK_SECRET}
@@ -50,6 +51,7 @@ services:
 volumes:
   caddy_data:
   caddy_config:
+  modpack_data:
 
 networks:
   pufferpanel_default:
